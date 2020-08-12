@@ -1,4 +1,4 @@
-# shuffleAndSort
+# Shuffle And Sort
 Shuffles and sorts list of numbers presented in square form.
 It is written using HTML, CSS, Javascript and Bootstrap
 
