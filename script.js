@@ -1,4 +1,4 @@
-let shuffleAndSortObj = (function() {
+let shuffleAndSort = (function() {
     
     const elementArray = [{ elem:1, class: 'colorCode1' }, { elem:2, class: 'colorCode2' }, { elem:3, class: 'colorCode3' }, { elem:4, class: 'colorCode2' }, { elem:5, class: 'colorCode3' }, { elem:6, class: 'colorCode4' }, { elem: 7, class: 'colorCode4' },{ elem:8, class: 'colorCode1' }, { elem:9, class: 'colorCode3' }];
     
@@ -40,7 +40,7 @@ let shuffleAndSortObj = (function() {
 
 function load()
 {
-	shuffleAndSortObj.sort();
+	shuffleAndSort.sort();
 }
 
 window.onload = load;
