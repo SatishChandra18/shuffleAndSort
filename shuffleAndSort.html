@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Shuffle And Sort</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Shuffle And Sort</title>
+    </head>
+    <body>
+        <div class="box col-md-12">
+            <header>
+                <h1>Shuffle and Sort</h1>
+            </header>
+            <div class="col-md-4 col-sm-4 col-md-push-8 col-sm-push-8">
+                <div class="row">
+                    <div class="col-md-12  col-sm-12  col-xs-6"> 
+                        <button class="btn btn-primary" onclick="shuffleAndSortObj.shuffle()">
+                            SHUFFLE
+                        </button>
+                    </div>
+                    <div class="col-md-12 col-sm-12  col-xs-6"> 
+                        <button class="btn btn-primary" onclick="shuffleAndSortObj.sort()">
+                            SORT
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 col-md-pull-4 col-sm-pull-4">
+                <div class="row text-center" id="elements"></div>
+            </div>
+            <footer>
+                <p>Shuffle and Sort by {{ Satish Chandra }} </p>
+            </footer>
+        </div>
+    </body>
+</html>
