@@ -1,6 +1,8 @@
 # Shuffle And Sort
-Shuffles and sorts list of numbers presented in square form.
-It is written using HTML, CSS, Javascript and Bootstrap
+Shuffles and Sorts list of numbers presented in square form.
+It is written using HTML, CSS, Javascript and Bootstrap.
+
+It supports web responsiveness.
 
 Steps to Run
 --------------
