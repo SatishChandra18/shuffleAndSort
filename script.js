@@ -6,7 +6,7 @@ let shuffleAndSort = (function() {
     function shuffle() {
         for (let i = elementArray.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * i);
-            [elementArray[i], elementArray[j]] = [elementArray[j], elementArray[i]];
+            [elementArray[i], elementArray[j]] = [elementArray[j], elementArray[i]]; //value reassignment not supported in IE
         }
         render(elementArray);
     }
@@ -37,6 +37,7 @@ let shuffleAndSort = (function() {
     }
     
     return {
+	//object short hand not supported in IE    
         shuffle, sort
     }
 })();
